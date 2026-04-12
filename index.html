@@ -434,7 +434,7 @@
       <h1 class="hero-name fade-up d2">Zamira</h1>
       <p class="hero-xv fade-up d2">celebra sus XV años</p>
       <div class="hero-date-badge fade-up d3">
-        <span class="day">25</span>
+        <span class="day">26</span>
         <span class="month-year">Abril · 2026</span>
       </div>
       <span class="hero-deco-float fade-up d4">🕰️</span>
@@ -485,8 +485,8 @@
     <article class="card fade-up d4">
       <span class="card-icon">📍</span>
       <h2>El lugar encantado</h2>
-      <p class="card-quote" style="font-size:22px">Salón El Jardín de las Hadas</p>
-      <p style="font-size:15px">Av. San Martín 2450, Salón Principal<br />Asunción, Paraguay</p>
+      <p class="card-quote" style="font-size:22px">Torres Eventos</p>
+      <p style="font-size:15px">Cap. Fariña Sanchez, 001110<br />Asunción, Paraguay</p>
       <div class="deco-divider"><span>✦</span></div>
       <p style="font-size:14px;font-style:italic;color:var(--ink-soft)">Déjate guiar por la magia de la noche y encontraremos juntos el camino.</p>
     </article>
@@ -495,7 +495,7 @@
         <span class="btn-icon">💬</span>
         <span class="btn-text-wrap">
           <span>Confirmar asistencia</span>
-          <span class="btn-sub">Responder antes del 17 de Abril</span>
+          <span class="btn-sub">Responder antes del 19 de Abril</span>
         </span>
       </a>
       <a class="btn btn-maps" id="btn-maps" href="#" target="_blank" rel="noopener">
@@ -509,7 +509,7 @@
 
     <div class="card fade-up d5" style="margin-top:16px">
       <div class="rsvp-note">
-        <p>⏰ Por favor confirma tu asistencia antes del <strong>17 de Abril</strong> para reservar tu lugar en esta noche mágica.</p>
+        <p>⏰ Por favor confirma tu asistencia antes del <strong>19 de Abril</strong> para reservar tu lugar en esta noche mágica.</p>
       </div>
     </div>
 
@@ -524,9 +524,9 @@
 
 <script>
 const CFG = {
-  eventDate: new Date(2026, 3, 25, 20, 0, 0),
-  whatsappNumber: '595994883858',
-  mapsURL: 'https://maps.google.com/?q=Salon+El+Jardin+de+las+Hadas+Asuncion'
+  eventDate: new Date(2026, 3, 26, 19, 0, 0),
+  whatsappNumber: '595971533593',
+  mapsURL: 'https://maps.app.goo.gl/yfwmK3pVPR6ESAdm6'
 };
 
 const intro = document.getElementById('intro');
@@ -655,7 +655,7 @@ function tick(){
 tick();
 setInterval(tick, 1000);
 
-const msg = encodeURIComponent('¡Hola! Confirmo mi asistencia a los XV años de Zamira el 25 de Abril ✨🕰️');
+const msg = encodeURIComponent('¡Hola! Confirmo mi asistencia a los XV años de Zamira el 26 de Abril ✨🕰️');
 document.getElementById('btn-rsvp').href = `https://wa.me/${CFG.whatsappNumber}?text=${msg}`;
 document.getElementById('btn-maps').href = CFG.mapsURL;
 
